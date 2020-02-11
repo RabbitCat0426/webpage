@@ -1,0 +1,40 @@
+
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    scroll-padding-top: 70px; /* 固定ヘッダの高さ分 */
+  }
+
+
+header{
+    top: 0; /* 上部から配置の基準位置を決める */
+    left: 0; /* 左から配置の基準位置を決める */
+    width: 100%; /* ヘッダーの横幅を指定する */
+    height: 70px; /* ヘッダーの高さを指定する */
+    padding: 10px; /* ヘッダーの余白を指定する(上下左右) */
+    /*background-color: #776f6f;*/
+    opacity: 0.5;
+    width:cover;
+    min-width: cover;
+    background-position: center bottom;
+    background-size: cover;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+    font-size: 40px;
+    text-align: center;
+}
+
+body{
+    min-width: cover;
+    background-image:url(../img/backscreen.png); /* 画像のURLを指定       */
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+}
+
+.main{
+    height: 80px;
+
+
+}
